@@ -25,3 +25,5 @@ Todos los modelos contienen la siguiente estructura de carpetas, a continuación
         * **[apple.obj](https://github.com/Ivonneperezf/modelos_de_gazebo/blob/main/apple/meshes/apple.obj):** Contiene todo lo relativo al modelo de blender.
         * **[textures](https://github.com/Ivonneperezf/modelos_de_gazebo/tree/main/apple/meshes/textures):** Almacena todas las imagenes que se definan como texturas en el modelo.
             * **[Material_35_baseColor.png](https://github.com/Ivonneperezf/modelos_de_gazebo/blob/main/apple/meshes/textures/Material_35_baseColor.png):** Tanto el nombre como la extensión pueden variar, este archivo puede o no existir en el modelo y depende de la configuración, aunque de igual manera forma parte de la jerarquía de carpetas.
+
+Los modelos se pueden obtener del sitio [sketchfab](https://sketchfab.com/).
