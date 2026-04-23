@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="chessboard">
+    <static>false</static> <link name="link">
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.210 0.297 0.001</size> </box>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.210 0.297 0.001</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://chessboard/materials/scripts</uri>
+            <uri>model://chessboard/materials/textures</uri>
+            <name>Chessboard/Texture</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

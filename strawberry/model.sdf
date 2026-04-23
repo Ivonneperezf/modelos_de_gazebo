@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+<model name="strawberry">
+  <static>false</static>
+  <link name="link">
+    <pose>0 0 0 0 0 0</pose>
+
+    <inertial>
+      <mass>0.1</mass>
+      <inertia>
+        <ixx>0.0001</ixx>
+        <iyy>0.0001</iyy>
+        <izz>0.0001</izz>
+        <ixy>0</ixy>
+        <ixz>0</ixz>
+        <iyz>0</iyz>
+      </inertia>
+    </inertial>
+
+    <visual name="visual">
+      <geometry>
+        <mesh>
+          <uri>model://strawberry/meshes/strawberry.obj</uri>
+        </mesh>
+      </geometry>
+    </visual>
+    <collision name="collision">
+      <geometry>
+        <mesh>
+          <uri>model://strawberry/meshes/strawberry.obj</uri>
+        </mesh>
+      </geometry>
+    </collision>
+  </link>
+</model>
+</sdf>
